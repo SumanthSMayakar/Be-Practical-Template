@@ -1,0 +1,443 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header section  */
+
+.desktopbanner> header {
+    width: 100%; 
+    height: auto;
+    background: linear-gradient(to right, rgba(69, 104, 220, 16), rgba(176, 106, 179, 0.2)), url(../images/pexels-christina-morillo-1181396.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo img {
+    width: 70%;
+    padding: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+.content{
+    display: flex;
+}
+
+.content h2{
+padding: 20px;
+font-size: 60px;
+}
+
+.content p{
+    padding: 18px;
+    font-size: 23px;
+    text-align:justify;
+    right: 50%;
+
+}
+.content input{ 
+    width: 25%;
+    height: 6.5vh;
+    border-radius: 50px;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    background: yellow;
+    font-size: 1rem;
+}
+.pic img{
+    width: 70%;
+    margin: 40px;
+    padding: 20px;
+    border-radius:70% 30% 18% 82% / 53% 41% 59% 47% ;
+}
+
+/* about */
+
+ .about{
+    background: whitesmoke;
+} 
+
+.about1{
+    display: flex;
+    margin: 10px;
+}
+
+.about i{
+    color:orange;
+    font-size: 40px;
+    padding: 10px;
+    
+}
+
+.about h2{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.about p{
+    padding: 10px;
+    font-size: 22px;
+    color: orange;
+    flex-wrap: wrap;
+}
+
+.about input{
+    padding: 10px;
+    background: orange;
+    color: white;
+    border-radius: 20px;
+    height: 8%;
+}
+
+.about img{
+    width: 100%;
+    margin:10px;
+}
+
+/* service  */
+
+.service{
+    background: linear-gradient(rgba(18, 18, 96,0.6),rgba(107, 7, 23,0.3));
+    height: 40vh;
+}
+
+.service h2 {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+.service1{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    gap: 10%;
+}
+
+.service1 h3{
+    font-size: 30px;
+    color: yellow;
+    text-align:start;
+    justify-content: end;
+}
+
+.service1 li{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+/* client */
+
+.client{
+    background: whitesmoke;
+}
+
+.client h3{
+    text-align: center;
+    font-size: 25px;
+    background: orange;
+    border-radius: 0% 0% 300%  300%;
+    padding: 12px;
+}
+
+.client h2{
+    text-align: center;
+    font-size: 3vw;
+    color: green;
+    padding: 12px;
+    margin: 20px;
+}
+
+.client1{
+    display: flex;
+    align-content: center;
+    justify-content:space-around;
+    gap:10%;
+    padding: 10px;
+}
+
+.client1 img{
+    padding: 20px;
+    margin: 30px;
+    border-radius: 40%;
+    width: 18%;
+    height: 18vh;
+    background-color: white ;
+    font-size: 50%;
+   
+}
+
+.client2{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+   
+}
+
+.client .client2 img{
+    margin: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    height: 15vh;
+    background-color: white ;
+}
+
+.client2 p{
+    text-align:center;
+    font-size: 120%;
+    margin: 20px;
+    color: #000;
+}
+
+/* recruitment */
+
+.recruitment{
+    background: linear-gradient(to right,rgba(151, 249, 151,0.3),rgba(74, 189, 234,0.3));
+    align-content: center;
+}
+
+.recruitment h3{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color:maroon;
+}
+
+.svg{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.svg p{
+    text-align: center;
+    justify-content: center;
+    font-size: 150%;
+    color: #000;
+   
+}
+
+/* hire  */
+.hire{
+    background: whitesmoke;
+    height: 50vh;
+}
+.hire,h2,h3{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.hire h2{
+    color: red;
+    font-size: 32px;
+}
+.hire h3{
+    color: green;
+    font-size: 22px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.info .one{
+    width:30%;
+    height:30%;
+    background: rgba(245, 222, 179,0.2);
+    border-radius: 10px;
+    box-shadow :-0px -0px 30px -0px ;
+    padding: 20px;
+}
+
+.info .two{
+    width:30%;
+    height:30%;
+    background: rgba(245, 222, 179,0.2);
+    border-radius: 10px;
+    box-shadow :-0px -0px 30px -0px ;
+    padding: 20px;
+
+}
+.info .three{
+    width:30%;
+    height:30%;
+    background: rgba(245, 222, 179,0.2);
+    border-radius: 10px;
+    box-shadow :-0px -0px 30px -0px ;
+    padding: 20px;
+
+}
+.info i{
+    font-size: 30px;
+    padding: 20px;
+    color: green;
+}
+
+.info p{
+    font-size: 30px;
+    color: red;
+}
+
+/* form  */
+.collect{
+    width: 100%;
+    background: whitesmoke; 
+    padding: 50px;
+}
+
+.collect h1{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.collect form{
+    width: 50%;
+    height: 90%;
+    background: #fff;
+    box-shadow :-0px -0px 8px -0px ;
+    transform: translate(50%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 1%;
+} 
+
+.collect label{
+    font-size: 18px;
+}
+
+.collect input{
+    height: 40px;
+    width: 60%;
+    background: whitesmoke;
+    border-color: whitesmoke;
+    border-radius: 5px
+}
+
+.collect button{
+    height: 7vh;
+    width: 20%;
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* footer */
+footer{
+    background: rgb(37, 37, 93);
+    width: 100%;
+}
+
+.footer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footleft{
+    width: 35%;
+}
+.footleft img{
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    align-items: center;
+}
+.footleft p{
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.footcenter h2{
+    font-size:24px;
+    color: #fff;
+    text-decoration: underline;
+    text-align:center;
+    padding: 20px;
+}
+
+.footcenter li{
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+.footcenter li a{
+    color: #fff;
+    text-decoration: none;
+    font-size:29px;
+    justify-content: space-around;
+   
+}
+
+.footright{
+    width: 30%;
+}
+
+.footright h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+.footright address,p{
+    color: #fff;
+    font-size: 22px;
+    
+}
+
+.footright i{
+    color: #fff;
+    font-size: 30px;
+   
+  
+}
+
+/* MEDIA CODE  */
+
+
+.tabbanner{
+    display: none;
+}
+
+.mobbanner{
+    display: none;
+}
+
+
+
+
+
+
